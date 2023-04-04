@@ -1,0 +1,442 @@
+
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+
+
+
+
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+#Home{
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+
+}
+.log-btn{
+ height: 100px;
+	background-image: url('logo.png');
+	background-size: 88% 100%;
+ background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+.btn1{
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;
+	border: solid 1px black;
+	border-radius: 10px;
+	position: relative;
+	left: 10px;
+	color: black;
+}
+.btn2{
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;
+	border: solid 1px black;
+	border-radius: 10px;
+	position: relative;
+	left: 10px;
+	color: black;
+}
+
+.btn3{
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;
+	border: solid 1px black;
+	border-radius: 10px;
+	position: relative;
+	left:10px;
+	color: black;
+}
+
+.btn4{
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;
+	border: solid 1px black;
+	border-radius: 10px;
+		position: relative;
+	left: 10px;
+	color: black;
+}
+
+.btn5{
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;
+	border: solid 1px black;
+	border-radius: 10px;
+	position: relative;
+	left:10px;
+	color: black;
+}
+
+
+
+.slider{
+	width:400%;
+	height:100%;
+	border:none;
+	position: relative;
+	top: 100px;
+	right: 0px;
+	float: left;
+	animation: anim 20s infinite;
+
+}
+@keyframes anim {
+	 0%{
+	 	 left: 0%;
+	 }
+	 12%{
+	 	left: 0%;
+	 }
+	 	 24%{
+	 	 left: -100%;
+	 }
+	 	 36%{
+	 	 left: -100%;
+	 }
+	 	 48%{
+	 	 left: -200%;
+	 }
+	 	 60%{
+	 	 left: -200%;
+	 }
+	 	 72%{
+	 	 left: -300%;
+	 }
+	 	 84%{
+	 	 left: -300%;
+	 }
+	 	 100%{
+	 	 left: 0%;
+	 }
+	 
+}
+.phot1{
+ background-image: url("1.jpg");
+ background-size: 120% 150%;
+ background-repeat: no-repeat;
+}
+
+.phot2{
+ background-image: url('2.jpg');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+.phot3{
+ background-image: url('3.jpg');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+.phot4{
+ background-image: url('4.jpg');
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+
+
+
+
+#About{
+	width: 100%;
+	height: 650px;
+			background:linear-gradient(40deg,#bb377d,#fbd3e9, #bb377d);
+}
+.About-image{
+	width: 350px;
+	height: 450px;
+	background-image: url('4.jpg');
+	 background-size: 100% 100%;
+ background-repeat: no-repeat;
+ position: relative;
+ top: 130px;
+ left: 60px;
+}
+.About-text{
+	width: 520px;
+	height: 450px;
+		position: relative;
+	top:-320px;
+	left: 410px;
+		background-color: rgba(255,255,255,0.3);
+}
+.About-text h1{
+height: 50px;
+	font-size: 60px;
+	font-style: italic;
+	color:black;
+		position: relative;
+	left: 20px;
+}
+.text_h2{
+height: 250px;
+	font-size: 23px;
+ text-overflow: clip;
+	font-style: italic;
+	color:black;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.About-buton{
+height: 150px;
+	text-decoration: none;
+	font-size: 30px;
+	font-style: italic;
+	border: solid 1px;
+		color:black;
+	border-radius: 10px;
+	padding: 5px 20px;
+	position: relative;
+	left: 20px;
+	bottom: 10px;
+}
+
+
+
+
+
+
+#Gallery{
+	width: 100%;
+	height: 900px;	
+}
+.Gallery-btn a{
+	font-size: 25px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 10px 15px;
+		color: black;
+		position: relative;
+		top: 120px;
+
+}
+.img-box{
+width: 90%;
+height: 700px;
+	position: relative;
+	top: 150px;
+	left: 70px;
+}
+.box1{
+	width: 250px;
+	height: 300px;
+	border: solid 2px black;
+	border-radius:0px 60px;
+		background-image: url('3.jpg');
+	 background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+.box2{
+	width: 250px;
+	height: 300px;
+	border: solid 2px black;
+	border-radius:20px 20px;
+		background-image: url('3.jpg');
+	 background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+.box3{
+	width: 250px;
+	height: 300px;
+	border: solid 2px black;
+	border-radius:60px 0px;
+		background-image: url('3.jpg');
+	 background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+#Service{
+	width: 100%;
+	overflow: hidden;
+		background:linear-gradient(40deg,#bb377d,#fbd3e9, #bb377d);
+}
+#Service h1{
+	font-size: 55px;
+	color: black;
+	font-style: italic;
+			position: relative;
+		top: 120px;
+
+}
+.service-box-main{
+	width: 90%;
+	height:1150px;
+		position: relative;
+		top: 160px;
+		display: flex;
+		flex-wrap: wrap;
+}
+.service-box{
+		width: 273px;
+	height: 400px;
+	margin:0px 10px;
+	border-radius: 20px;
+		background-color :rgba(255,255,255,0.3);
+}
+.service-box:hover{
+	background-color :rgba(255,255,255,0.7);
+}
+
+.service-box-text{
+	color: black;
+	font-size: 30px;
+}
+.service-box-para{
+		color: black;
+		position: relative;
+	top: -10px;
+}
+.services-booking-btn{
+		font-size: 20px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;
+	border: solid 1px;	
+	border-radius: 10px;
+	position: relative;
+	top: -10px;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+	width: 100%;
+	height: 330px;
+	overflow: hidden;
+
+}
+
+.footer_log-btn{
+width: 250px;
+ height: 100px;
+	background-image: url('logo.png');
+	background-size: 88% 100%;
+ background-repeat: no-repeat;
+	text-decoration: none;
+}
+
+.btn11{
+	font-size: 25px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;
+	position: relative;
+	left: 10px;
+	color: black;
+}
+.btn12{
+	font-size: 25px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;	
+	position: relative;
+	left: 10px;
+	color: black;
+}
+
+.btn13{
+	font-size: 25px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;
+	position: relative;
+	left:10px;
+	color: black;
+}
+
+.btn14{
+	font-size: 25px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;
+		position: relative;
+	left: 10px;
+	color: black;
+}
+
+.btn15{
+	font-size: 25px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 5px 15px;
+	position: relative;
+	left:10px;
+	color: black;
+}
+
+
+
+
+.share{
+    padding:1rem 0;
+}
+
+.share a{
+    height:40px;
+    width: 5rem;
+    font-size: 2rem;
+    color:black;
+    margin:20px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.share a:hover{
+    background-color:red;
+}
+
+.credit{
+    font-size: 2rem;
+    color:black;
+    font-weight: lighter;
+    padding:1.5rem;
+}
+
+.credit span{
+    color:black;
+}
+
